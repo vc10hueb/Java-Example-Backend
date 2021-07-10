@@ -18,7 +18,7 @@ The application uses a postgresql database.
 When deployed as an application within the context of a Tomcat app server, 
 the WAR expects a JNDI data source. On the tomcat server add to the configuration 
 file `$CATALINA_BASE/conf/example.properties` 
-the following entry `spring.datasource.jndi-name/jdbc/shipping`.
+the following entry `spring.datasource.jndi-name/jdbc/example`.
 
 ##Docker
 The `db-docker-setup.sh` automates the process of creating the database.
